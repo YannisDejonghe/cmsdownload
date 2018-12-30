@@ -1,0 +1,187 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 11:35:13
+* VERSION: 1.3.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.2.13 | SAPI: fpm-fcgi
+PHP MEMORY:	5000M | SUHOSIN: disabled
+SERVER:		Apache
+DOC ROOT:	/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be
+DOC ROOT 755:	false
+LOG FILE 644:	false
+REQUEST URL:	http://wordpress.yannisdejonghe.be/dup-installer/main.installer.php
+SAFE MODE :	0
+CONFIG MODE :	NEW
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' backed-up to .htaccess-181229113513-5c275bf10d9e4-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS:  'web.config' not found - no backup needed.
+- PASS:  '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20181229_wordpresscms_ade41581931645db6749_20181229104122_archive.zip
+SIZE:	35.33MB
+
+ZIP:	Shell Exec Unzip
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/20181229_wordpresscms_ade41581931645db6749_20181229104122_archive.zip' -d '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+Permissions setting on directory '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/.' failed
+Permissions setting on directory '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/..' failed
+Permissions setting on directory '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/wp-admin/..' failed
+Permissions setting on directory '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/wp-content/..' failed
+Permissions setting on directory '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/wp-includes/..' failed
+Permissions setting on directory '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/dup-installer/..' failed
+
+STEP-1 COMPLETE @ 11:35:35 - RUNTIME: 22.1230 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:36:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.20 -- Build Server: 5.7.21
+FILE SIZE:	dup-database__ade4158-29104122.sql (1.36MB) - installer-data.sql (0B)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/dup-installer/dup-installer-data__ade4158-29104122.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.20] is less than the build version [5.7.21].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	640
+
+wp_commentmeta: (0)
+wp_comments: (2)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (170)
+wp_postmeta: (236)
+wp_posts: (114)
+wp_term_relationships: (17)
+wp_term_taxonomy: (5)
+wp_termmeta: (0)
+wp_terms: (5)
+wp_usermeta: (27)
+wp_users: (1)
+wp_wc_avatars_cache: (2)
+wp_wc_comments_subscription: (0)
+wp_wc_follow_users: (0)
+wp_wc_phrases: (0)
+wp_wc_users_voted: (0)
+Removed '40' cache/transient rows
+
+INSERT DATA RUNTIME: 0.1615 sec.
+STEP-2 COMPLETE @ 11:36:38 - RUNTIME: 0.1657 sec.
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP-3 START @ 11:37:09
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (2)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (170)
+wp_postmeta~ (236)
+wp_posts~ (114)
+wp_term_relationships~ (17)
+wp_term_taxonomy~ (5)
+wp_termmeta^ (0)
+wp_terms~ (5)
+wp_usermeta~ (27)
+wp_users~ (1)
+wp_wc_avatars_cache~ (2)
+wp_wc_comments_subscription^ (0)
+wp_wc_follow_users^ (0)
+wp_wc_phrases^ (0)
+wp_wc_users_voted^ (0)
+--------------------------------------
+Search1:	'C:/wamp64/www/WordpressCMS/wordpress' 
+Change1:	'/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be' 
+Search2:	'C:\/wamp64\/www\/WordpressCMS\/wordpress' 
+Change2:	'\/data\/sites\/web\/yannisdejonghebe\/subsites\/wordpress.yannisdejonghe.be' 
+Search3:	'C%3A%2Fwamp64%2Fwww%2FWordpressCMS%2Fwordpress%2F' 
+Change3:	'%2Fdata%2Fsites%2Fweb%2Fyannisdejonghebe%2Fsubsites%2Fwordpress.yannisdejonghe.be%2F' 
+Search4:	'C:\wamp64\www\WordpressCMS\wordpress' 
+Change4:	'/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be' 
+Search5:	'C:\\wamp64\\www\\WordpressCMS\\wordpress' 
+Change5:	'\/data\/sites\/web\/yannisdejonghebe\/subsites\/wordpress.yannisdejonghe.be' 
+Search6:	'C%3A%5Cwamp64%5Cwww%5CWordpressCMS%5Cwordpress' 
+Change6:	'%2Fdata%2Fsites%2Fweb%2Fyannisdejonghebe%2Fsubsites%2Fwordpress.yannisdejonghe.be' 
+Search7:	'//localhost/wordpressCMS/wordpress' 
+Change7:	'//wordpress.yannisdejonghe.be' 
+Search8:	'\/\/localhost\/wordpressCMS\/wordpress' 
+Change8:	'\/\/wordpress.yannisdejonghe.be' 
+Search9:	'%2F%2Flocalhost%2FwordpressCMS%2Fwordpress' 
+Change9:	'%2F%2Fwordpress.yannisdejonghe.be' 
+Search10:	'https://wordpress.yannisdejonghe.be' 
+Change10:	'http://wordpress.yannisdejonghe.be' 
+Search11:	'https:\/\/wordpress.yannisdejonghe.be' 
+Change11:	'http:\/\/wordpress.yannisdejonghe.be' 
+Search12:	'https%3A%2F%2Fwordpress.yannisdejonghe.be' 
+Change12:	'http%3A%2F%2Fwordpress.yannisdejonghe.be' 
+SCANNED:	Tables:18 	|	 Rows:579 	|	 Cells:4509 
+UPDATED:	Tables:2 	|	 Rows:122 	|	 Cells:138 
+ERRORS:		0 
+RUNTIME:	0.041800 sec
+
+NEW WP-ADMIN USER:
+- New username 'yannis' was created successfully.
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/data/sites/web/yannisdejonghebe/subsites/wordpress.yannisdejonghe.be/wp-config.php'
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 11:37:09 - RUNTIME: 0.0582 sec. 
+
+
